@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  background-color: #000000;
+  color: #fff4f9;
+}
+
+span {
+  color: #d3fbd8;
+}
+
+nav {
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul a:link,
+nav ul a:visited {
+  color: #fff4f9;
+  text-decoration: none;
+}
+
+nav ul a:hover,
+nav ul a:active {
+  color: #d3fbd8;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns:
+    1fr
+    min(60ch, calc(100% - 64px))
+    1fr;
+  grid-column-gap: 32px;
+}
+
+.wrapper > * {
+  grid-column: 2;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.about-me p {
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2.above-projects {
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 50px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.projects a:link,
+.projects a:visited {
+  color: #fb4f93;
+  text-decoration: none;
+}
+
+.projects a:hover,
+.projects a:active {
+  color: #fb4f94a3;
+}
+
+.contact-me h2 {
+  margin-top: 100px;
+}
+
+/* .contact-me {
+  border: 2px solid red;
+} */
+
+.contact-me h2 {
+  font-size: 30px;
+}
+
+.contact-me p {
+  font-size: 20px;
+}
+
+.contact-me ul {
+  font-size: 20px;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* border: 2px solid red; */
+}
+
+.contact-me a:link,
+.contact-me a:visited {
+  text-decoration: none;
+  color: #d3fbd8;
+}
+
+.contact-me a:hover,
+.contact-me a:active {
+  color: #d3fbd8af;
+}
