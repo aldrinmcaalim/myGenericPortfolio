@@ -114,8 +114,7 @@ h3 {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  /* padding: 20px; */
-  /* border: 2px solid red; */
+  padding: 0;
 }
 
 .contact-me a:link,
@@ -127,4 +126,131 @@ h3 {
 .contact-me a:hover,
 .contact-me a:active {
   color: #d3fbd8af;
+}
+
+/* ===================================================================== 
+======================================================================== 
+MEDIA QUERIES
+======================================================================== 
+ ===================================================================== */
+
+@media only screen and (max-width: 850px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .projects article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  nav {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .about-me h2 {
+    font-size: 20px;
+  }
+
+  .about-me p {
+    font-size: 18px;
+  }
+
+  h2.above-projects {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .contact-me h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contact-me p {
+    font-size: 15px;
+  }
+
+  .contact-me ul {
+    font-size: 16px;
+    width: 100%;
+    /* list-style-type: none;
+  display: flex;
+  justify-content: space-between; */
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  nav {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .about-me h2 {
+    font-size: 18px;
+  }
+
+  .about-me p {
+    font-size: 16px;
+  }
+
+  h2.above-projects {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .projects img {
+    height: 200px;
+  }
+
+  .projects p {
+    font-size: 14px;
+  }
+
+  .projects a {
+    font-size: 14px;
+  }
+
+  .contact-me h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .contact-me p {
+    font-size: 14px;
+  }
+
+  .contact-me ul {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-me ul {
+    font-size: 12px;
+  }
 }
