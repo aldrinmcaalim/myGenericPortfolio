@@ -58,16 +58,20 @@ h1 {
   font-size: 20px;
 }
 
-h2 {
+.about-me h2 {
+  font-size: 30px;
   text-align: center;
 }
 
 h2.above-projects {
-  margin-top: 50px;
-  font-size: 35px;
+  /* margin-top: 50px; */
+  font-size: 30px;
+  text-align: center;
 }
 
 .projects {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
   column-gap: 50px;
@@ -88,9 +92,9 @@ h3 {
   color: #fb4f94a3;
 }
 
-.contact-me h2 {
+/* .contact-me h2 {
   margin-top: 100px;
-}
+} */
 
 /* .contact-me {
   border: 2px solid red;
@@ -110,7 +114,7 @@ h3 {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  /* padding: 20px; */
   /* border: 2px solid red; */
 }
 
